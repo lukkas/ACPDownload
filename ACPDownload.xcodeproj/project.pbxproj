@@ -602,6 +602,7 @@
 				AE25CDDF1D0822E5009D121C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
