@@ -34,14 +34,14 @@
 		AE25CDEB1D08230C009D121C /* ACPProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682B1A7507AA0060B654 /* ACPProgressLayer.m */; };
 		AE25CDEC1D082310009D121C /* ACPStaticImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682D1A7507AA0060B654 /* ACPStaticImages.m */; };
 		AE25CDED1D082310009D121C /* ACPStaticImagesAlternative.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D9682F1A7507AA0060B654 /* ACPStaticImagesAlternative.m */; };
-		AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682C1A7507AA0060B654 /* ACPStaticImages.h */; };
-		AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682E1A7507AA0060B654 /* ACPStaticImagesAlternative.h */; };
-		AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968251A7507AA0060B654 /* ACPIndeterminateGoogleLayer.h */; };
-		AE25CDF21D08253D009D121C /* ACPIndeterminateLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968271A7507AA0060B654 /* ACPIndeterminateLayer.h */; };
-		AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682A1A7507AA0060B654 /* ACPProgressLayer.h */; };
-		AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968291A7507AA0060B654 /* ACPLayerProtocol.h */; };
-		AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968211A7507AA0060B654 /* ACPDownloadConstants.h */; };
-		AE25CDF61D08253D009D121C /* ACPDownloadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968231A7507AA0060B654 /* ACPDownloadView.h */; };
+		AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682C1A7507AA0060B654 /* ACPStaticImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682E1A7507AA0060B654 /* ACPStaticImagesAlternative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968251A7507AA0060B654 /* ACPIndeterminateGoogleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF21D08253D009D121C /* ACPIndeterminateLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968271A7507AA0060B654 /* ACPIndeterminateLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9682A1A7507AA0060B654 /* ACPProgressLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968291A7507AA0060B654 /* ACPLayerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968211A7507AA0060B654 /* ACPDownloadConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B212D1251D0B017500E9E19D /* ACPDownloadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968231A7507AA0060B654 /* ACPDownloadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE25CDD81D0822E5009D121C /* ACPDownload.h in Headers */,
+				B212D1251D0B017500E9E19D /* ACPDownloadView.h in Headers */,
 				AE25CDEF1D08253D009D121C /* ACPStaticImages.h in Headers */,
 				AE25CDF01D08253D009D121C /* ACPStaticImagesAlternative.h in Headers */,
 				AE25CDF11D08253D009D121C /* ACPIndeterminateGoogleLayer.h in Headers */,
@@ -252,7 +253,6 @@
 				AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */,
 				AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */,
 				AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */,
-				AE25CDF61D08253D009D121C /* ACPDownloadView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +602,7 @@
 				AE25CDDF1D0822E5009D121C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
