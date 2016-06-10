@@ -42,6 +42,7 @@
 		AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968291A7507AA0060B654 /* ACPLayerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968211A7507AA0060B654 /* ACPDownloadConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B212D1251D0B017500E9E19D /* ACPDownloadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968231A7507AA0060B654 /* ACPDownloadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B212D1281D0B066000E9E19D /* ACPStaticImagesProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D968301A7507AA0060B654 /* ACPStaticImagesProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,6 +254,7 @@
 				AE25CDF31D08253D009D121C /* ACPProgressLayer.h in Headers */,
 				AE25CDF41D08253D009D121C /* ACPLayerProtocol.h in Headers */,
 				AE25CDF51D08253D009D121C /* ACPDownloadConstants.h in Headers */,
+				B212D1281D0B066000E9E19D /* ACPStaticImagesProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
