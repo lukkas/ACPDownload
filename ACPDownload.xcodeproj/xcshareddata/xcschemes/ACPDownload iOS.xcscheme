@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE25CDD41D0822E5009D121C"
-               BuildableName = "ACPDownload iOS.framework"
+               BuildableName = "ACPDownload.framework"
                BlueprintName = "ACPDownload iOS"
                ReferencedContainer = "container:ACPDownload.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE25CDD41D0822E5009D121C"
-            BuildableName = "ACPDownload iOS.framework"
+            BuildableName = "ACPDownload.framework"
             BlueprintName = "ACPDownload iOS"
             ReferencedContainer = "container:ACPDownload.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE25CDD41D0822E5009D121C"
-            BuildableName = "ACPDownload iOS.framework"
+            BuildableName = "ACPDownload.framework"
             BlueprintName = "ACPDownload iOS"
             ReferencedContainer = "container:ACPDownload.xcodeproj">
          </BuildableReference>

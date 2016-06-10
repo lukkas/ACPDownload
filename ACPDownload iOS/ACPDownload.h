@@ -16,4 +16,12 @@ FOUNDATION_EXPORT const unsigned char ACPDownload_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ACPDownload_iOS/PublicHeader.h>
 
-
+#import <ACPDownload/ACPStaticImages.h>
+#import <ACPDownload/ACPStaticImagesAlternative.h>
+#import <ACPDownload/ACPIndeterminateGoogleLayer.h>
+#import <ACPDownload/ACPIndeterminateLayer.h>
+#import <ACPDownload/ACPProgressLayer.h>
+#import <ACPDownload/ACPLayerProtocol.h>
+#import <ACPDownload/ACPStaticImagesProtocol.h>
+#import <ACPDownload/ACPDownloadConstants.h>
+#import <ACPDownload/ACPDownloadView.h>
